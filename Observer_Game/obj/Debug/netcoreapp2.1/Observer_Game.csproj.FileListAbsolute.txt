@@ -1,0 +1,11 @@
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/bin/Debug/netcoreapp2.1/Observer_Game.deps.json
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/bin/Debug/netcoreapp2.1/Observer_Game.runtimeconfig.json
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/bin/Debug/netcoreapp2.1/Observer_Game.runtimeconfig.dev.json
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/bin/Debug/netcoreapp2.1/Observer_Game.dll
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/bin/Debug/netcoreapp2.1/Observer_Game.pdb
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.csprojAssemblyReference.cache
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.csproj.CoreCompileInputs.cache
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.AssemblyInfoInputs.cache
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.AssemblyInfo.cs
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.dll
+/media/desfid/093FDDAA381E38BB/Backup/Adrian/Documents/Instituto/2/POO/Observer_Game/obj/Debug/netcoreapp2.1/Observer_Game.pdb
