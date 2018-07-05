@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Values</title>
+	</head>
+	<body>
+		<label>Product</label>
+		<input type="text" id="product" />
+		<hr/><label>Value</label>
+		<input type="text" id="value" />
+		<hr/><label>Quantity</label>
+		<input type="text" id="quantity" />
+		<input type="button" id="butto" onclick="my_function()" value="Calculate"/>
+	</body>
+	<script language="javascript">
+			var Bill = function(){
+				this.product = "";
+			};
+			Bill.prototype = {
+				setStrategy: function(subj1) {
+					this.product = subj1;
+				},
+				calculate: function(value1, value2){
+					return this.product.calculate(value1, value2);
+				}
+			}
+			var EnterpriseA = function (){
+				this.calculate = function(value1, value2){
+					var total = (value1 * value2) * 0.12;
+					return total;
+				}
+			}
+			var EnterpriseB = function(){
+				this.calculate = function(value1, value2){
+					var total = (value1 * value2) * 0.10;
+					return total;
+				}
+			}
+			function my_function(){
+			var product = document.getElementById('product').value;
+			var value = document.getElementById('value').value;
+			var quantity = document.getElementById('quantity').value;
+
+			var enterpriseA = new EnterpriseA();
+			var enterpriseB = new EnterpriseB();
+			var mul = value*quantity;
+			var bill = new Bill();
+			bill.setStrategy(enterpriseA);
+			alert("EnterpriseA \nVale * Quantity: "+mul+"\nIVA 12%: " + bill.calculate(parseInt(value), parseInt(quantity)));
+			bill.setStrategy(enterpriseB);
+			alert("EnterpriseB \nVale * Quantity: "+mul+"\nIVA 10%: " + bill.calculate(parseInt(value), parseInt(quantity)));
+			}
+		</script>
+</html>
